@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+* {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1 {
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
+}
+
+
+.fix-nav {
+    position: fixed;
+    z-index: 990;  
+    background: rgb(255, 255, 255) 
+}
+
+ .navbar {
+     position: relative; 
+  }
+
+.navbar-brand img{
+    position: relative;
+    height: 23px;
+    width: 135px;
+    z-index: 993;
+    float: left;
+    margin: 0 8px 0 100px;
+
+}
+ .navbar-brand h1 {
+     font-size: 27px;
+    margin: 0 0  0 110px; 
+    color: rgb(75, 49, 150);
+}
+
+.navbar-brand span {
+    color: rgb(0, 156, 218);
+}
+
+.s-icon{
+    position: relative;
+    height: 14px;
+    width: 13px;
+    z-index: 992;
+    float: right;
+    margin: -42px 158px 0 0;
+}
+
+.nav-link {
+    font-family: 'Lato';
+}
+
+#for-s {
+    height: 30px;
+    width: 180px;
+    background: rgb(232, 228,242);
+    border-radius: 0%;
+    margin: 0 0 0 25px;
+}
+
+.banner {
+    height: 790px;
+    background-image: url("../img/baner-bg.png");
+}
+
+    .banner h1 {
+        position: relative;
+        
+        text-align: center;
+        vertical-align: middle;
+        font-family: 'Lato';
+        font-size: 50px; 
+        top: 40%;
+        color: white;
+    }
+    .banner span {
+         color: rgb(254, 244, 6);
+    }
+    .banner p {
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        top: 40%;
+        color: white;
+        font-family: 'Lato — Regular';
+        font-size: 15px;  
+    }
+
+.choose {
+    height: 690px;
+    text-align: center;
+}
+    .choose h1 {
+        position: relative;
+        margin: 115px 0 32px 0;
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        font-family: 'Lato';  
+    }
+
+    .choose span {
+        color: rgb(0, 157, 218);
+    }
+    .choose p {
+        font-family: 'Lato — Regular';
+        color: rgb(167, 167, 167)
+    }
+    .choose h3 {
+        font-family: 'Lato';
+        font-size: 18px;
+    }
+
+.box-1 {
+    display: inline-block;
+    width: 197px;
+    height: 268px;
+    border: 0.5px solid rgb(235, 235,235);
+    margin: 0 34px 0 0;
+   } 
+  
+   .box-1 img {
+       
+       height: 52px;
+       width: 60px;
+       margin: 34px 0 55px 0;
+   }
+
+.box-2 {
+    display: inline-block;
+    width: 197px;
+    height: 268px;
+    border: 0.5px solid rgb(235, 235,235);
+    margin: 0 34px 0 0;
+   }
+   .box-2 img {
+    text-align: center;
+    height: 52px;
+    width: 60px;
+    margin: 39px 0 50px 0;
+   }
+   
+.box-3 {
+    display: inline-block;
+    width: 197px;
+    height: 268px;
+    border: 0.5px solid rgb(235, 235,235);
+    margin: 60px 34px 0 0;
+}   
+   .box-3 img {
+    text-align: center;
+    height: 42px;
+    width: 65px;
+    margin: 40px 0 60px 0;
+   }
+
+.box-4 {
+    display: inline-block;
+    width: 197px;
+    height: 268px;
+    border: 0.5px solid rgb(235, 235,235);
+    margin: 0 34px 0 0;
+   }
+   .box-4 img {
+    text-align: center;
+    height: 55px;
+    width: 56px;
+    margin: 30px 0 57px 0;
+   }
+
+.box-5 {
+    display: inline-block;
+    width: 197px;
+    height: 268px;
+    border: 0.5px solid rgb(235, 235,235);
+    margin: 0 34px 0 0;
+   }
+   .box-5 img {
+    text-align: center;
+    height: 53px;
+    width: 57px;
+    margin: 34px 0 55px 0;
+   }
+
+.products {
+    height: 840px;
+    background-image: url("../img/product-bg.png");
+    position: relative;
+}
+.products img {
+    position: relative; 
+    display: table;
+    height: 120px;
+}
+    .products h1 {
+        text-align: center;
+        position: absolute; 
+        margin: -100px auto; 
+        color: white;
+        font-family: 'Lato';
+    }
+
+     .products h1 span {
+         color: rgb(254, 255, 1);
+     }
+
+    .pr-text{
+        text-align: left;
+        margin: -125px 0 0 265px;
+    }
+        .pr-text h5 {
+            color: rgb(79, 50, 156);
+            font-family: 'Lato';
+        }
+        .pr-text p {
+            color: rgb(105, 105, 105);
+            font-family: 'Lato';
+        }  
+        .pr-blok {
+            text-align: center;
+            margin: 0 0 0 -90px;
+        }
+
+.pr-box-1 {
+    display: inline-block; 
+    margin: 155px 50px 0 0;
+    width: 333px;
+    height: 143px;
+    
+   }
+   .pr-box-1 img {
+       width: 145px;
+       height: 145px;
+   }
+   
+.pr-box-2 {
+    display: inline-block;
+    margin: 100px 50px 0 0;
+    width: 333px;
+    height: 143px;
+    
+   }
+   .pr-box-2 img {
+       width: 145px;
+       height: 145px;
+}
+
+.pr-box-3 {
+    display: inline-block;
+    margin: 100px 50px 0 0;
+    width: 333px;
+    height: 143px;
+    
+   }
+   .pr-box-3 img {
+    width: 145px;
+    height: 145px;
+}
+.pr-box-4 {
+    display: inline-block;
+    margin: 100px 50px 0 0;
+    width: 333px;
+    height: 143px;
+    
+   }
+   .pr-box-4 img {
+    width: 145px;
+    height: 145px;
+}
+.pr-box-5 {
+    display: inline-block;
+    margin: 100px 50px 0 0;
+    width: 333px;
+    height: 143px;
+     
+   }
+   .pr-box-5 img {
+    width: 145px;
+    height: 145px;
+}
+.pr-box-6 {
+    display: inline-block;
+    margin: 100px 50px 0 0;
+    width: 333px;
+    height: 143px;
+     
+   }
+   .pr-box-6 img {
+    width: 145px;
+    height: 145px;
+}
+
+.about {
+    height: 940px; 
+}  
+
+.text-1 h1 {
+    font-family: 'Lato';
+} 
+
+.text-1 h1 span {
+    color: rgb(0, 156, 221);
+}
+.text-1 p {
+    font-family: 'Lato — Regular';
+    color: rgb(153, 153, 153);
+    margin: 20px auto;
+} 
+.text-2 p {
+    font-family: 'Lato — Regular';
+    margin: 50px auto;
+}
+
+.block-1 {
+    position: relative;
+    height: 610px;       
+    width: 555px;
+    float: left;    
+    margin: 118px 246px 0 73px;
+}
+
+.block-2 img {
+    position: relative;
+    height: 570px;
+    width: 343px;
+    margin: 189px auto; 
+}
+.SkillBar {
+    width: 543px;
+    height: 50px;
+    position: relative; 
+    margin: 20px auto;
+}
+
+
+.skill-name {
+    position: absolute; 
+    margin: 0 0 0 1px;  
+}
+
+.sk-pr {
+    position: relative; 
+    text-align: right;
+    margin: 40px 0 -10px -1px;
+}
+
+.skill1 {
+    border: 0.5px solid rgb(235, 235,235);
+    height: 10px;
+}
+#Skill-PHOTOSHOP {
+    width: 79%;
+    animation: Animate-PHOTOSHOP 4s;
+    height: 3px;
+    margin: 2.5px 0 0 1.5px;
+    position: absolute;
+    background-color: blue;
+}
+  @keyframes Animate-PHOTOSHOP {
+    from {
+    width: 1px;
+}
+to {
+    width: 79%;
+ } 
+} 
+
+.skill2 {
+    border: 0.5px solid rgb(235, 235,235);
+    height: 10px;
+}
+#Skill-HTML {
+    width: 90%;
+    animation: Animate-HTML 4s;
+    height: 3px;
+    margin: 2.5px 0 0 1.5px;
+    position: absolute;
+    background-color: blue;
+}
+ @keyframes Animate-HTML {
+    from {
+    width: 1px;
+}
+to {
+    width: 90%
+ }
+} 
+
+    .skill3 {
+        border: 0.5px solid rgb(235, 235,235);
+        height: 10px;
+    }
+    #Skill-JAVASCRIPT {
+        width: 69%;
+        animation: Animate-JAVASCRIPT 4s;
+        height: 3px;
+        margin: 2.5px 0 0 1.5px;
+        position: absolute;
+        background-color: blue;
+    }
+     @keyframes Animate-JAVASCRIPT {
+        from {
+        width: 1px;
+    }
+    to {
+        width: 69%
+    }
+   } 
+
+.skill4 {
+    border: 0.5px solid rgb(235, 235,235);
+    height: 10px;
+}
+#Skill-WORDPRESS {
+    width: 92%;
+    animation: Animate-WORDPRESS 4s;
+    height: 3px;
+    margin: 2.5px 0 0 1.5px;
+    position: absolute;
+    background-color: blue;
+}
+ @keyframes Animate-WORDPRESS {
+    from {
+    width: 1px;
+}
+to {
+    width: 92%
+} 
+}
+.contact {
+    text-align: center;
+    color: white;
+}
+.contact h1 {
+    font-family: 'Lato';
+    color: black;
+}
+.contact p {
+    font-family: 'Lato — Regular';
+    color: rgb(153, 153, 153);
+}
+    
+.contact span {
+     color: rgb(0, 156, 218);  
+}
+
+.map-bg {
+    height: 630px;
+    width: 100%;
+    position: relative;
+    background: black;
+     opacity: 80; 
+     z-index: 200; 
+     opacity: 0.7;    
+}
+.map {
+    position: absolute;
+    z-index: 100; 
+    width: 100%;
+}
+.forms {
+    position: relative;
+    height: 435px;
+    width: 944px;
+    z-index: 400;
+    background: black;
+    opacity: 0.6;
+    margin: 95px auto;
+    text-align: center;
+}
+.form-bx {
+    display: inline-block;
+    float: left;
+    width: 555px;
+}
+  #name {
+      display: inline-block;
+      float: left;
+      height: 48px;
+      width: 237px;
+      background: black;
+      color: white;
+      margin: 80px 15px 16px 60px;
+  }
+  #email {
+    display: inline-block;
+    height: 48px;
+    width: 237px;
+    background: black;
+    color: white;
+    margin: 13px 0 0 0;
+  }
+  #messege {
+      position: relative;
+      height: 141px;
+      width: 493px;
+      background: black;
+      color: white;
+      margin: 0 0 0 52px;
+  }
+  
+  #send {
+      display: inline-block;
+       float: right; 
+      height: 47px;
+      width: 120px;
+      border: 1px solid rgb(255, 255, 1);
+      background:rgb(255, 255, 1);
+      margin: 5px 5px 20px 0;
+  }
+
+  #check {
+    display: inline-block;
+    height: 22px;
+    width: 22px; 
+    margin: 15px 5px 0 -20px;
+    color: rgb(235, 235,235);
+}
+    #check p {
+     color: white
+    }
+  
+  .contact-text{
+    text-align: left;
+    padding: 80px 0 0 650px;
+    color: white;
+    font-family: 'Lato — Regular';
+  }
+ .footer {
+     position: relative;
+    height: 60px;
+    width: 100%;
+    margin: 115px 0 0 0;
+    background: black;
+} 
+.footer p {
+    position: relative;
+    top: 30%;
+    color: rgb(124, 124, 124);
+    margin: 10px 0 0 -432px; 
+}
+
+.social {
+   
+    text-align: right;
+    padding: -25px 0 40px 0;
+ }
+.icon1 {
+    display: inline-block; 
+    box-sizing: content-box;
+    top: 50%;
+    height: 20px;
+    width: 10px;
+    margin: -20px 26px 0 0;  
+      
+}
+.icon2 {
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    margin: 0 20px 0 0;
+}
+.icon3 {
+    display: inline-block;
+    height: 19px;
+    width: 18px;
+    margin: 0 20px 0 0;
+}
+.icon4 {
+    display: inline-block;
+    height: 22px;
+    width: 20px;
+    margin: 0 26px 0 0;
+}
